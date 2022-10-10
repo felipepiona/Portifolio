@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Projetos</title>
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <h1>
+                Felipe Piona Silva
+            </h1>
+            <h2>
+                Estudante de programação
+            </h2>
+
+            <h3>
+                <p> <a href="index.html"> home</a> </p>
+
+                <p> <a href="Quem_sou.html"> Quem sou?</a></p>
+
+                <p> <a href="projetos.html"> Projetos</a> </p>
+
+            </h3>
+
+
+        </div>
+
+
+    </header>
+    <main>
+        <div>
+            <h2 class=" subtitles"> HABILIDADES </h2>
+            <ul>
+
+                <label for="file">HTML:</label>
+                <progress id="file" max="100" value="40"> 40% </progress>
+
+                <li>
+                    <label for="file">CSS:</label>
+                    <progress id="file" max="100" value="40"> 40% </progress>
+                </li>
+
+                <li>
+                    <label for="file">JAVASCRIPT:</label>
+                    <progress id="file" max="100" value="10"> 10% </progress>
+
+                </li>
+
+
+            </ul>
+
+            <div class="experiencia">
+                <h2> EXPERIÊNCIA PROFISSIONAL</h2>
+                <h4> Aluno no reprograme-se</h4>
+
+                <P>
+                    <&#x1f4c5> 2022 - 2023
+                </P>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquid est natus nam rem,
+                    perferendis fuga illo fugit excepturi labore provident iusto dolorem ratione atque omnis laboriosam
+                    quas doloremque illum.</p>
+
+                <h4> Aluno no reprograme-se</h4>
+
+                <P>
+                    <&#x1f4c5> 2022 - 2023
+                </P>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquid est natus nam rem,
+                    perferendis fuga illo fugit excepturi labore provident iusto dolorem ratione atque omnis laboriosam
+                    quas doloremque illum.</p>
+                <h4> Aluno no reprograme-se</h4>
+
+                <P>
+                    <&#x1f4c5> 2022 - 2023
+                </P>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquid est natus nam rem,
+                    perferendis fuga illo
+                    fugit excepturi labore provident iusto dolorem ratione atque omnis laboriosam quas doloremque illum.
+                </p>
+
+            </div>
+
+            <div class="idiomas">
+                <h2>Idiomas</h2>
+
+                <ul>
+                    <li>
+                        <label for="file">PORTUGUÊS:</label>
+                        <progress id="file" max="100" value="70"> 70% </progress>
+
+                    </li>
+
+                    <li>
+                        <label for="file">INGLÊS:</label>
+                        <progress id="file" max="100" value="40"> 40% </progress>
+
+                    </li>
+
+                    <li>
+                        <label for="file">ESPANHOL:</label>
+                        <progress id="file" max="100" value="10"> 10% </progress>
+
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    <script>
+
+        const range = document.querySelector('#range'),
+            progressbar = document.querySelector('.progress-bar');
+
+
+        range.addEventListener('input', function () {
+            const value = range.value;
+            progressbar.style.setProperty('--progress', value)
+        }) 
+    </script>
+</body>
+
+</html>
